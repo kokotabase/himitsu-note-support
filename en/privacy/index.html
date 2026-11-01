@@ -16,12 +16,14 @@
   <li>Hobbies you choose and the visibility of each (Public / Show if shared / Private)</li>
   <li>Friends you exchanged with and when, and records of exchange QR codes</li>
   <li>Users you blocked and reports you sent (target, reason, details)</li>
+  <li>Notification data: if you allow push notifications, your device’s push token; your notification settings; your notification history (who, which hobbies newly became common, when, read or not); and which common hobbies we have already told you about</li>
+  <li>Hobby tags you add (the tag name and alternative names, who added it and when)</li>
   <li>Session data (device type, last use), sign-up time and last active time</li>
 </ul>
 <p>We do not collect your real name, email, phone number, location, contacts or photos. The camera is used only to scan QR codes; images are processed on the device and never stored or sent.</p>
 
 <h2>2. Purpose</h2>
-<p>To exchange profiles and show common hobbies, to sign you in, to handle reports and prevent abuse, and to answer inquiries.</p>
+<p>To exchange profiles and show common hobbies, to notify you about new things in common and exchanges, to provide hobby tags, to sign you in, to handle reports and prevent abuse, and to answer inquiries.</p>
 
 <h2>3. What other users can see</h2>
 <ul>
@@ -30,10 +32,12 @@
   <li>“Show if shared” hobbies are shown to a friend only if they have the same hobby. Others are not even told it exists (this is decided on the server and never sent to their device)</li>
   <li>“Private” hobbies are visible only to you and are not used for matching</li>
   <li>There is no user search; only people you exchange QR codes with can see you</li>
+  <li>When a friend adds a hobby and you have something new in common, you and/or that friend may be notified (following the visibility rules above). Push notification text never includes hobby names</li>
+  <li>Names of tags added by users are shown to other users when they search for hobbies. Who added a tag or who uses it is never shown, only the number of users</li>
 </ul>
 
 <h2>4. Sharing and service providers</h2>
-<p>We never sell or share your information except as required by law. We use: Railway (servers and database, USA), Resend (emailing reports to us, USA), and Apple / LY Corporation (sign-in).</p>
+<p>We never sell or share your information except as required by law. We use: Railway (servers and database, USA), Resend (emailing reports to us, USA), Apple / LY Corporation (sign-in), Apple Push Notification service (delivering push notifications: device token and notification text), and Wikidata (Wikimedia Foundation, USA: hobby tag suggestions — only the words you type when searching for a hobby are sent, from our server, with nothing that identifies you).</p>
 
 <h2>5. Ads, analytics and tracking</h2>
 <p>The App shows no ads, contains no analytics or tracking SDKs, and does not track you across other companies’ apps or websites.</p>
@@ -43,11 +47,13 @@
   <li>Delete your account any time from Settings → “アカウントを削除” (Delete account). Your profile, hobbies, friends, blocks and sign-in data are deleted and the Apple link is revoked</li>
   <li>Exchange QR codes expire after 10 minutes and are deleted one day later</li>
   <li>Sessions unused for 180 days are invalidated</li>
+  <li>Push tokens are deleted when you sign out, when the session expires, or when the App is removed. We keep your latest 100 notifications</li>
+  <li>Tags you add remain available to other users (unlinked from you when you delete your account). We remove inappropriate tags</li>
   <li>Report records are kept to handle and prevent abuse (unlinked from you when you delete your account)</li>
 </ul>
 
 <h2>7. Contact</h2>
 <p>kokotabase — <a href="mailto:info@kokotabase.com">info@kokotabase.com</a></p>
-<p>Effective: November 1, 2026</p>
+<p>Effective: November 1, 2026 (updated: notifications and hobby tags)</p>
 <footer><a href="../support/">Support</a>　<a href="../terms/">Terms</a></footer>
 </body></html>
